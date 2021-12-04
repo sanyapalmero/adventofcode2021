@@ -1,4 +1,4 @@
-from main import part_1, part_2
+from .main import part_1, part_2
 
 
 def test_part1():
@@ -14,7 +14,7 @@ def test_part1():
         "10000",
         "11001",
         "00010",
-        "01010"
+        "01010",
     ]
     assert part_1(input_txt) == 198
 
@@ -32,6 +32,6 @@ def test_part2():
         "10000",
         "11001",
         "00010",
-        "01010"
+        "01010",
     ]
     assert part_2(input_txt) == 230
